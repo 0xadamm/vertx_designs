@@ -44,7 +44,7 @@ const Header = (props: any) => {
 							height={52}
 							src="/assets/images/logo.png"
 							alt="vertxDesigns"
-							className="h-auto w-auto"
+							className="h-16 w-16"
 						/>
 					</Link>
 					<div className="flex items-center">
