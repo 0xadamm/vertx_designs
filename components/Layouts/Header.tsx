@@ -40,11 +40,11 @@ const Header = (props: any) => {
 				<div className="flex items-center justify-between py-5 lg:py-0">
 					<Link href="/">
 						<Image
-							width={60}
-							height={52}
+							width={30}
+							height={26}
 							src="/assets/images/logo.png"
 							alt="vertxDesigns"
-							className="h-12 w-12"
+							className="h-auto w-auto"
 						/>
 					</Link>
 					<div className="flex items-center">
