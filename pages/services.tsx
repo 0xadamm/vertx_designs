@@ -27,7 +27,6 @@ const Services = () => {
 			{/* <Expertise /> */}
 			<CoreServices />
 			<HowWeDoIt />
-			<DesignProcess title={"Our Design Process"} />
 			{/* <ProjectSlider title1="Our Projects" title2="Some of our finest work." /> */}
 			{/* <LogoSlider /> */}
 			<Testimonial feedbacks={feedbacks} />
