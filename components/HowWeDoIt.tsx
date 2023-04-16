@@ -13,12 +13,12 @@ function HowWeDoIt() {
 							maintain optimal control.
 						</h4>
 						<p className="pt-5 text-lg font-semibold">
-							Find out everything you need to know and more about how
-							we create our business process models. There are many
-							variations of passages of Lorem Ipsum available, but
-							the majority have suffered alteration in some form, by
-							injected humour, or randomised words which don&apos;t
-							look even slightly believable.
+							At Vertx Designs, we prioritize seamless and
+							stress-free solutions for our clients. Our transparent
+							pricing, clear communication, and dedicated team ensure
+							optimal control over your projects. We tailor our
+							services to your specific needs, allowing you to focus
+							on growing your business with confidence.
 						</p>
 					</div>
 					<div className="grid gap-4 rounded-[32px] sm:grid-cols-2 sm:gap-0">
@@ -155,7 +155,7 @@ function HowWeDoIt() {
 									Development
 								</h3>
 								<p className="line-clamp-6 text-sm font-bold leading-5 opacity-80">
-									This is the main part of our process beca-use the
+									This is the main part of our process because the
 									product that we deliver depends on the efforts made
 									during this stage.
 								</p>

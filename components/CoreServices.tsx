@@ -54,8 +54,9 @@ const CoreServices = () => {
 								Product Design
 							</Link>
 							<p className="mb-10 line-clamp-3 text-lg font-semibold transition dark:group-hover:text-black">
-								We provide services with the best designs than our
-								designer team for your business.
+								Our product design services help create functional,
+								visually appealing, and sustainable products that
+								meet user needs.
 							</p>
 							<Link
 								href="/product-design"
@@ -120,8 +121,9 @@ const CoreServices = () => {
 								Software Development
 							</Link>
 							<p className="mb-10 line-clamp-3 text-lg font-semibold transition dark:group-hover:text-black">
-								We help develop company websites to be more
-								professional and attractive
+								We help businesses connect with their online
+								audiences by creating and deploying websites and
+								apps, from design to launch.
 							</p>
 							<Link
 								href="/software-development"
@@ -186,8 +188,8 @@ const CoreServices = () => {
 								Digital Marketing
 							</Link>
 							<p className="mb-10 line-clamp-3 text-lg font-semibold transition dark:group-hover:text-black">
-								We also help you market your products through an
-								online marketplace.
+								We specialize in targeted market identification and
+								effective product delivery to drive business growth.
 							</p>
 							<Link
 								href="/digital-marketing"
