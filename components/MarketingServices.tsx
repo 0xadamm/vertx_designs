@@ -56,8 +56,8 @@ const MarketingServices = () => {
 							Campaign Strategy
 						</h3>
 						<p className="mt-4 text-lg font-semibold">
-							We provide services with the best designs than our
-							designer team for your business.
+							We'll work with you to devise a roadmap for achieving
+							your marketing goals.
 						</p>
 					</div>
 					<div className="mt-0 lg:-mt-7">
@@ -119,8 +119,8 @@ const MarketingServices = () => {
 								Brand Discovery
 							</h3>
 							<p className="mt-4 text-lg font-semibold">
-								We help develop company websites to be more
-								professional and attractive
+								Differentiate from competitors, building a strong
+								foundation for marketing.
 							</p>
 						</div>
 					</div>
@@ -161,8 +161,8 @@ const MarketingServices = () => {
 								SEO
 							</h3>
 							<p className="mt-4 text-lg font-semibold">
-								We help develop company websites to be more
-								professional and attractive
+								Optimize your websites content to improve its ranking
+								in search engine results.
 							</p>
 						</div>
 					</div>
@@ -192,8 +192,8 @@ const MarketingServices = () => {
 							HubSpot CRM
 						</h3>
 						<p className="mt-4 text-lg font-semibold">
-							We provide services with the best designs than our
-							designer team for your business.
+							Manage customer interactions and relationships &
+							streamline sales and marketing processes.
 						</p>
 					</div>
 					<div className="mt-0 lg:-mt-4">
@@ -235,8 +235,8 @@ const MarketingServices = () => {
 								Content Creation
 							</h3>
 							<p className="mt-4 text-lg font-semibold">
-								We help develop company websites to be more
-								professional and attractive
+								Create compelling content that resonates with your
+								audience and drives engagement.
 							</p>
 						</div>
 					</div>
@@ -273,8 +273,8 @@ const MarketingServices = () => {
 								Social Media Marketing
 							</h3>
 							<p className="mt-4 text-lg font-semibold">
-								We help develop company websites to be more
-								professional and attractive
+								Effectively target your desired audience demographic
+								to maximize the impact of your content.
 							</p>
 						</div>
 					</div>
