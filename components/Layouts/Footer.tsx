@@ -86,7 +86,7 @@ const Footer = () => {
 							</li>
 							<li>
 								<Link
-									href="/services-detail"
+									href="/digital-marketing"
 									className="inline-block transition hover:scale-110 hover:text-secondary"
 								>
 									Digital Marketing
