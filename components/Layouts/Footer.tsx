@@ -141,7 +141,7 @@ const Footer = () => {
 							<li>164 Brighton Ave, Miami, Florida, U.S.</li>
 							<li>
 								<a
-									href="tel:+(617) 254-2333"
+									href="sms:+(617) 254-2333"
 									className="inline-block transition hover:scale-110 hover:text-secondary"
 								>
 									+(617) 254-2333
