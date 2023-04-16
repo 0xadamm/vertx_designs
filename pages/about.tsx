@@ -1,16 +1,13 @@
 /* eslint-disable max-len */
-import { useSelector } from "react-redux";
-import Link from "next/link";
 import Head from "next/head";
 import Testimonial from "../components/Testimonial";
-import { IRootState } from "../store";
 import SubHero from "../components/SubHero";
 import WhoAreWe from "../components/WhoAreWe";
 import HowItWorks from "../components/HowItWorks";
-import Growth from "../components/Growth";
-import NewsletterForm from "../components/NewsletterForm";
+
 import ContactNow from "../components/ContactNow";
 import { feedbacks } from "../constants/feedbacks";
+import DesignProcess from "../components/DesignProcess";
 
 const Aboutus = () => {
 	return (
@@ -29,7 +26,7 @@ const Aboutus = () => {
 			/>
 			<WhoAreWe />
 			<HowItWorks />
-			{/* <Growth /> */}
+			<DesignProcess title={"Our Design Process"} />
 			<Testimonial feedbacks={feedbacks} />
 			<ContactNow />
 		</div>
