@@ -41,7 +41,7 @@ const Header = (props: any) => {
 					<Link href="/">
 						<Image
 							width={60}
-							height={60}
+							height={52}
 							src="/assets/images/logo.png"
 							alt="vertxDesigns"
 							className="h-10 w-full"

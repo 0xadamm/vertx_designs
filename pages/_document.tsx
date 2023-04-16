@@ -16,6 +16,18 @@ export default function Document() {
 					href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;800&display=swap"
 					rel="stylesheet"
 				/>
+				<meta
+					name="theme-color"
+					content="#08111F"
+				/>
+				<meta
+					name="apple-mobile-web-app-status-bar-style"
+					content="black-translucent"
+				/>
+				<meta
+					name="apple-mobile-web-app-capable"
+					content="yes"
+				/>
 			</Head>
 			<body>
 				<Main />
