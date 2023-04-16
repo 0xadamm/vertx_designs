@@ -322,7 +322,7 @@ const ContactNow = (props: any) => {
 			</div>
 			<div className="text-center">
 				<a
-					href="mailto:example@example.com"
+					href="mailto:info@vertxdesigns.com"
 					className="btn inline-flex items-center gap-3 bg-secondary text-white sm:text-lg"
 				>
 					<svg
