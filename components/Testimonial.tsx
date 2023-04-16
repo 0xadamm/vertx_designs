@@ -456,7 +456,7 @@ const Testimonial: React.FC<TestimonialProps> = ({
 										feedbacks.map((feedback: any) => {
 											return (
 												<SwiperSlide key={feedback.id}>
-													<div className="items-center gap-4 sm:grid sm:grid-cols-3">
+													<div className="items-center gap-4 sm:grid sm:grid-cols-3 ">
 														<div className="col-span-2">
 															<div className="relative rounded-3xl bg-white/[0.02] p-5">
 																<img
@@ -498,7 +498,7 @@ const Testimonial: React.FC<TestimonialProps> = ({
 																</div>
 															</div>
 														</div>
-														<div className="mx-auto mt-4 h-40 w-20 max-w-[255px] overflow-hidden rounded-full bg-white ltr:ml-auto rtl:mr-auto dark:bg-gray-dark sm:mt-0 sm:h-auto sm:w-auto sm:rounded-[150px] ltr:sm:mr-0 rtl:sm:ml-0">
+														<div className="h-90 mt-5  overflow-hidden rounded-xl bg-white ltr:ml-auto rtl:mr-auto dark:bg-gray-dark sm:mt-0 sm:h-auto sm:w-full sm:max-w-full sm:rounded-[200px] ltr:sm:mr-0 rtl:sm:ml-0">
 															<img
 																src={feedback.thumbnail}
 																alt="testimonial"
@@ -577,7 +577,7 @@ const Testimonial: React.FC<TestimonialProps> = ({
 																</h6>
 															</div>
 														</div>
-														<div className="mx-auto h-40 w-60 flex-1 md:mx-0 md:w-full md:max-w-sm">
+														<div className="h-40 w-60 flex-1 md:mx-0 md:w-full md:max-w-sm">
 															<img
 																src={feedback.thumbnail}
 																alt="testimonial"
