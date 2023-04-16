@@ -14,7 +14,7 @@ const Contactus = () => {
 			<SubHero
 				title="Contact Us"
 				subtitle="Reach Out To Us Anytime!"
-				image="/assets/images/contactHero.png"
+				image="/assets/images/contactHero.svg"
 				height={350}
 				width={300}
 			/>

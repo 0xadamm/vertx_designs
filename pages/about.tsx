@@ -20,7 +20,7 @@ const Aboutus = () => {
 			<SubHero
 				title="About Us"
 				subtitle="About Vertx Designs"
-				image="/assets/images/aboutHero.png"
+				image="/assets/images/aboutHero.svg"
 				height={300}
 				width={300}
 			/>

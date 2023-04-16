@@ -20,7 +20,7 @@ const Services = () => {
 			<SubHero
 				title="Services"
 				subtitle="Our Services"
-				image="/assets/images/serviceHero.png"
+				image="/assets/images/serviceHero.svg"
 				height={300}
 				width={300}
 			/>
