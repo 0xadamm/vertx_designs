@@ -5,9 +5,11 @@ import Image from "next/image";
 interface ContactNowProps {
 	buttonIcon?: string;
 	buttonText?: string;
+	buttonEmail?: string;
 }
 
 const ContactNow: React.FC<ContactNowProps> = ({
+	buttonEmail,
 	buttonIcon,
 	buttonText,
 }) => {
@@ -55,14 +57,14 @@ const ContactNow: React.FC<ContactNowProps> = ({
 			</div>
 			<div className="text-center">
 				<a
-					href="mailto:info@vertxdesigns.com"
+					href={buttonEmail || "mailto:info@vertxdesigns.com"}
 					className="btn inline-flex items-center gap-3 bg-secondary text-white sm:text-lg"
 				>
 					{/* Button Icon */}
 					<Image
 						width={30}
 						height={30}
-						src={buttonIcon || "/assets/images/chat.svg"}
+						src={buttonIcon || "/assets/images/plane.svg"}
 						alt={"chat"}
 					/>
 					<span className="capitalize">
