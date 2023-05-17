@@ -49,7 +49,8 @@ const PortfolioProjects = () => {
 								Website
 							</button>
 						</li>
-						<li
+						{/* //Todo Mobile Apps */}
+						{/* <li
 							className={`filter ${
 								activeTab === "app" ? "active" : ""
 							}`}
@@ -61,93 +62,10 @@ const PortfolioProjects = () => {
 							>
 								Mobile App
 							</button>
-						</li>
+						</li> */}
 					</ul>
 				</div>
 				{/* Projects  */}
-				{/* <div className="projects mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-					<div
-						className={`project ${
-							activeTab === "all" || activeTab === "design"
-								? "block"
-								: "hidden"
-						}`}
-					>
-						<div className="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none">
-							<Link
-								href="/portfolio-detail"
-								className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"
-							></Link>
-							<Image
-								width={350}
-								height={466}
-								src="/assets/images/project-1.png"
-								alt="project-1"
-								className="h-52 w-full rounded-t-3xl object-cover"
-							/>
-							<div className="p-5 text-sm font-bold">
-								<h6 className="mb-1 text-black dark:text-white">
-									Space Landing page
-								</h6>
-								<p>Website</p>
-							</div>
-						</div>
-					</div>
-					<div
-						className={`project ${
-							activeTab === "all" || activeTab === "app"
-								? "block"
-								: "hidden"
-						}`}
-					>
-						<div className="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none">
-							<Link
-								href="/portfolio-detail"
-								className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"
-							></Link>
-							<Image
-								width={350}
-								height={524}
-								src="/assets/images/project-2.png"
-								alt="project-2"
-								className="h-52 w-full rounded-t-3xl object-cover"
-							/>
-							<div className="p-5 text-sm font-bold">
-								<h6 className="mb-1 text-black dark:text-white">
-									Crypto Game
-								</h6>
-								<p>Website, App</p>
-							</div>
-						</div>
-					</div>
-					<div
-						className={`project ${
-							activeTab === "all" || activeTab === "website"
-								? "block"
-								: "hidden"
-						}`}
-					>
-						<div className="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none">
-							<Link
-								href="/portfolio-detail"
-								className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"
-							></Link>
-							<Image
-								width={350}
-								height={260}
-								src="/assets/images/project-3.png"
-								alt="project-3"
-								className="h-52 w-full rounded-t-3xl object-cover"
-							/>
-							<div className="p-5 text-sm font-bold">
-								<h6 className="mb-1 text-black dark:text-white">
-									Looking for a quiet place
-								</h6>
-								<p>Website</p>
-							</div>
-						</div>
-					</div>
-				</div> */}
 				<div className="projects mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
 					{PROJECTS.map(project =>
 						project.category.includes(activeTab) ? (
