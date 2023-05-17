@@ -50,7 +50,7 @@ const PortfolioProjects = () => {
 							</button>
 						</li>
 						{/* //Todo Mobile Apps */}
-						{/* <li
+						<li
 							className={`filter ${
 								activeTab === "app" ? "active" : ""
 							}`}
@@ -62,7 +62,7 @@ const PortfolioProjects = () => {
 							>
 								Mobile App
 							</button>
-						</li> */}
+						</li>
 					</ul>
 				</div>
 				{/* Projects  */}
