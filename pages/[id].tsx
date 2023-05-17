@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import CoreTech from "../components/CoreTech";
 import logos from "../constants/logos";
 import { PROJECTS } from "../constants/projects";
+import ProjectSlider from "../components/ProjectSlider";
 
 const Portfoliodetail = () => {
 	const router = useRouter();
@@ -68,50 +69,58 @@ const Portfoliodetail = () => {
 
 					{/* <!-- Images -->  */}
 					<div className="grid gap-[30px] sm:grid-cols-2">
-						<Image
-							width={540}
-							height={800}
-							src={project.imagesrc1}
-							alt="portfolio-img-1"
-							className="rounded-[32px]"
-							data-aos="fade-up"
-							data-aos-duration="1000"
-						/>
-						<Image
-							width={540}
-							height={415}
-							src={project.imagesrc2}
-							alt="portfolio-img-2"
-							className="rounded-[32px]"
-							data-aos="fade-up"
-							data-aos-duration="1000"
-						/>
+						{project.imagesrc1 && (
+							<Image
+								width={540}
+								height={800}
+								src={project.imagesrc1}
+								alt="portfolio-img-1"
+								className="rounded-[32px]"
+								data-aos="fade-up"
+								data-aos-duration="1000"
+							/>
+						)}
+						{project.imagesrc2 && (
+							<Image
+								width={540}
+								height={415}
+								src={project.imagesrc2}
+								alt="portfolio-img-2"
+								className="rounded-[32px]"
+								data-aos="fade-up"
+								data-aos-duration="1000"
+							/>
+						)}
 					</div>
 					<div className="py-[30px] sm:py-[50px]">
-						<Image
-							width={1110}
-							height={500}
-							src={project.imagesrc3}
-							alt="portfolio-img-3"
-							className="rounded-[32px]"
-							data-aos="fade-up"
-							data-aos-duration="1000"
-						/>
+						{project.imagesrc3 && (
+							<Image
+								width={1110}
+								height={500}
+								src={project.imagesrc3}
+								alt="portfolio-img-3"
+								className="rounded-[32px]"
+								data-aos="fade-up"
+								data-aos-duration="1000"
+							/>
+						)}
 					</div>
 					<div>
-						<Image
-							width={1110}
-							height={800}
-							src={project.imagesrc4}
-							alt="portfolio-img-4"
-							className="rounded-[32px]"
-							data-aos="fade-up"
-							data-aos-duration="1000"
-						/>
+						{project.imagesrc4 && (
+							<Image
+								width={1110}
+								height={800}
+								src={project.imagesrc4}
+								alt="portfolio-img-4"
+								className="rounded-[32px]"
+								data-aos="fade-up"
+								data-aos-duration="1000"
+							/>
+						)}
 					</div>
 				</div>
 			</section>
-			{/* <ProjectSlider title2="Related Projects" /> */}
+			<ProjectSlider title2="Our Projects" />
 		</div>
 	);
 };
