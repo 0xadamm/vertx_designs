@@ -144,7 +144,7 @@ const Footer = () => {
 									href="sms:+(617) 254-2333"
 									className="inline-block transition hover:scale-110 hover:text-secondary"
 								>
-									+(617) 254-2333
+									+1 (323) 364-4080
 								</a>
 							</li>
 						</ul>
@@ -164,9 +164,9 @@ const Footer = () => {
 							</Link>
 						</div>
 						<div>
-							Need help? Visit the{" "}
+							Need help?{" "}
 							<Link
-								href="/contact-us"
+								href="/contact"
 								className="text-secondary transition hover:text-primary"
 							>
 								Contact Us

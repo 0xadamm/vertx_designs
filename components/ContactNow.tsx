@@ -68,7 +68,7 @@ const ContactNow: React.FC<ContactNowProps> = ({
 						alt={"chat"}
 					/>
 					<span className="capitalize">
-						{buttonText || "contact us now"}
+						{buttonText || "email us now"}
 					</span>
 				</a>
 			</div>
