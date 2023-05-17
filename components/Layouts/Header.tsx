@@ -96,7 +96,7 @@ const Header = (props: any) => {
 									</Link>
 								</li>
 								{/* Portfolio */}
-								{/* <li>
+								<li>
 									<Link
 										href="/portfolio"
 										className={
@@ -108,7 +108,7 @@ const Header = (props: any) => {
 									>
 										Portfolio
 									</Link>
-								</li> */}
+								</li>
 								{/* Services */}
 								<li>
 									<Link
