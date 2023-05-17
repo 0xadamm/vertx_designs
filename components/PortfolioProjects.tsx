@@ -165,7 +165,7 @@ const PortfolioProjects = () => {
 										height={project.thumbnail.height}
 										src={project.thumbnail.src}
 										alt={project.thumbnail.alt}
-										className="h-52 w-full rounded-t-3xl object-cover"
+										className="h-52 w-full rounded-t-3xl object-top"
 									/>
 									<div className="p-5 text-sm font-bold">
 										<h6 className="mb-1 text-black dark:text-white">
