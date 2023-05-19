@@ -51,7 +51,7 @@ const Portfoliodetail = () => {
 							Features and Functionalities
 						</h3>
 						<ul className="list-disc space-y-4 font-semibold leading-6 ltr:ml-[18px] rtl:mr-[18px] md:text-lg ltr:md:pl-4 rtl:md:pr-4">
-							{PROJECTS[0].features.map((feature, index) => (
+							{project.features.map((feature, index) => (
 								<li key={index}>{feature}</li>
 							))}
 						</ul>
