@@ -113,6 +113,7 @@ export const PROJECTS = [
 			"React Three Fiber",
 			"Client Side Rendering",
 			"Interactive Elements",
+			"Contact Form",
 		],
 	},
 	// Project 5
@@ -140,9 +141,9 @@ export const PROJECTS = [
 
 		features: [
 			"React Native",
-			"Firebase",
+			"Native Wind ",
 			"Cross Platform",
-			"Authentication",
+			"RapidAPI",
 		],
 	},
 ];
