@@ -1,5 +1,5 @@
-// pages/_document.js
 import { Html, Head, Main, NextScript } from "next/document";
+import Script from "next/script";
 
 export default function Document() {
 	return (
@@ -28,7 +28,26 @@ export default function Document() {
 					name="apple-mobile-web-app-capable"
 					content="yes"
 				/>
+				{/* Global site tag (gtag.js) - Google Analytics */}
+				<Script
+					src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
+					strategy="afterInteractive"
+				/>
+				<Script
+					id="google-analytics"
+					strategy="afterInteractive"
+				>
+					{`
+						window.dataLayer = window.dataLayer || [];
+						function gtag(){window.dataLayer.push(arguments);}
+						gtag('js', new Date());
+						
+						gtag('config', '${process.env.GOOGLE_ANALYTICS}');
+						// console.log('google analytics script is running')
+						`}
+				</Script>
 			</Head>
+
 			<body>
 				<Main />
 				<NextScript />
