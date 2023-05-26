@@ -138,7 +138,7 @@ const Footer = () => {
 							<li className="mb-3 text-lg font-extrabold text-black dark:text-white">
 								Information
 							</li>
-							<li>164 Brighton Ave, Miami, Florida, U.S.</li>
+							<li>Los Angeles, California</li>
 							<li>
 								<a
 									href="sms:+(617) 254-2333"
