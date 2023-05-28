@@ -19,7 +19,7 @@ const Portfoliodetail = () => {
 	return (
 		<div>
 			<Head>
-				<title>Portfolio Details | Vertx Designs</title>
+				<title>{`${project.title} | Vertx Designs`}</title>
 			</Head>
 			{/* <PortfolioDetailHero /> */}
 			<div className="bg-[url(/assets/images/inner-page-hero-bg.png)] bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">

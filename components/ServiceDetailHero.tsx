@@ -26,7 +26,7 @@ const ServiceDetailHero = () => {
 								UX, UI, navigation, and functionality.
 							</p>
 							<Link
-								href="/about-us"
+								href="/about"
 								className="btn mt-2 capitalize text-white"
 							>
 								Get A Free Quote
