@@ -28,6 +28,7 @@ export default function Document() {
 					name="apple-mobile-web-app-capable"
 					content="yes"
 				/>
+
 				{/* Global site tag (gtag.js) - Google Analytics */}
 				<Script
 					src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}

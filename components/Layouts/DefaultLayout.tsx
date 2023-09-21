@@ -135,7 +135,7 @@ const DefaultLayout = ({ children }: PropsWithChildren) => {
 				</div>
 
 				{/* Return to Top  */}
-				{showTopButton && (
+				{/* {showTopButton && (
 					<button
 						type="button"
 						className="fixed bottom-5 z-10 animate-bounce ltr:right-5 rtl:left-5"
@@ -158,7 +158,7 @@ const DefaultLayout = ({ children }: PropsWithChildren) => {
 							</svg>
 						</div>
 					</button>
-				)}
+				)} */}
 			</div>
 		</App>
 	);

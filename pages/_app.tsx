@@ -6,6 +6,7 @@ import DefaultLayout from "../components/Layouts/DefaultLayout";
 import { Provider } from "react-redux";
 import store from "../store/index";
 import Head from "next/head";
+import Chatbot from "../components/Chatbot";
 
 export default function App({ Component, pageProps }: AppProps) {
 	return (
@@ -26,6 +27,7 @@ export default function App({ Component, pageProps }: AppProps) {
 				<div className=" min-h-screen bg-status-bar">
 					<DefaultLayout>
 						<Component {...pageProps} />
+						<Chatbot />
 					</DefaultLayout>
 				</div>
 			</Suspense>
