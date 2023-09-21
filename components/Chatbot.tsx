@@ -29,9 +29,9 @@ const Chatbot = () => {
 				messagingUrl: "https://messaging.botpress.cloud",
 				clientId: "4ea69f6d-e5ad-4f5a-822a-df7f2ff00c9c",
 				lazySocket: true,
-				botName: "Adam",
+				botName: "Jeff",
 				stylesheet:
-					"https://webchat-styler-css.botpress.app/prod/0b919466-e958-4096-ac8d-288f895430e1/v13471/style.css",
+					"https://webchat-styler-css.botpress.app/prod/0b919466-e958-4096-ac8d-288f895430e1/v24861/style.css",
 				frontendVersion: "v1",
 			});
 		};
