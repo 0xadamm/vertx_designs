@@ -108,14 +108,13 @@ const Blogdetail: React.FC<ContactNowProps> = ({
 							template is a great starting point for any business
 							looking to implement a chatbot on their website. It is
 							built using Voiceflow, a no-code platform that allows
-							you to build, prototype, and launch voice and chatbots
-							without writing a single line of code. This template is
-							fully customizable and can be integrated with your
-							website in minutes.
+							you to build, prototype, and launch chatbots without
+							writing a single line of code. This template is fully
+							customizable and can be integrated with your website in
+							minutes.
 						</p>
 
 						<h3>Key Features </h3>
-
 						<ul>
 							<li>
 								<strong>24/7 Customer Support:</strong> Offer
