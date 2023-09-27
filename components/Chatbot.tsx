@@ -1,43 +1,43 @@
-// Chatbot.tsx
-
 import React, { useEffect } from "react";
-
-interface BotpressWebChat {
-	init: (options: any) => void;
-	// Add other methods that you might use from Botpress
-}
 
 declare global {
 	interface Window {
-		botpressWebChat: BotpressWebChat;
+		voiceflow: {
+			chat: {
+				load: (options: any) => void;
+			};
+		};
 	}
 }
 
-const Chatbot = () => {
+const VoiceflowChatbot = () => {
 	useEffect(() => {
+		// Create a new script element
 		const script = document.createElement("script");
-		script.src = "https://cdn.botpress.cloud/webchat/v1/inject.js";
-		script.async = true;
-		document.body.appendChild(script);
+		script.type = "text/javascript";
 
+		// Set the onload function
 		script.onload = () => {
-			window.botpressWebChat.init({
-				composerPlaceholder: "Chat with Jeff",
-				botConversationDescription: "This is an Amazing Bot",
-				botId: "4ea69f6d-e5ad-4f5a-822a-df7f2ff00c9c",
-				hostUrl: "https://cdn.botpress.cloud/webchat/v1",
-				messagingUrl: "https://messaging.botpress.cloud",
-				clientId: "4ea69f6d-e5ad-4f5a-822a-df7f2ff00c9c",
-				lazySocket: true,
-				botName: "Jeff",
-				stylesheet:
-					"https://webchat-styler-css.botpress.app/prod/0b919466-e958-4096-ac8d-288f895430e1/v24861/style.css",
-				frontendVersion: "v1",
+			window.voiceflow.chat.load({
+				verify: { projectID: "651121ceab3cff00089f6c26" },
+				url: "https://general-runtime.voiceflow.com",
+				versionID: "production",
 			});
+		};
+
+		// Set the script source
+		script.src = "https://cdn.voiceflow.com/widget/bundle.mjs";
+
+		// Append the script to the DOM
+		document.getElementsByTagName("head")[0].appendChild(script);
+
+		// Cleanup: Remove the script when the component unmounts
+		return () => {
+			document.getElementsByTagName("head")[0].removeChild(script);
 		};
 	}, []);
 
-	return <div id="webchat" />;
+	return <div id="voiceflow-chat" />;
 };
 
-export default Chatbot;
+export default VoiceflowChatbot;
