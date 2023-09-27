@@ -5,13 +5,13 @@ import Image from "next/image";
 import React from "react";
 import SubHero from "../components/SubHero";
 
-interface ContactNowProps {
+interface ResourceProps {
 	buttonIcon?: string;
 	buttonText?: string;
 	buttonPath?: string;
 }
 
-const Blogdetail: React.FC<ContactNowProps> = ({
+const Resources: React.FC<ResourceProps> = ({
 	buttonPath,
 	buttonIcon,
 	buttonText,
@@ -36,32 +36,6 @@ const Blogdetail: React.FC<ContactNowProps> = ({
 				height={350}
 				width={426}
 			/>
-			{/* <div className="bg-[url(/assets/images/inner-page-hero-bg.png)] bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">
-				<div className="relative">
-					<div className="container">
-						<div className="relative w-full py-14 md:my-14 md:inline-block md:py-0 lg:my-[128px]">
-							<div className="heading relative mb-8 text-center lg:mb-0 lg:w-1/2 ltr:lg:text-left rtl:lg:text-right">
-								<h6>Resources</h6>
-								<h4 className="!text-white">
-									Unlock the Secrets to AI: Your Ultimate Resource
-									Guide
-								</h4>
-							</div>
-							<div
-								className="top-0 mt-6 ltr:right-0 rtl:left-0 md:mt-0 lg:absolute"
-								data-aos={isRtl ? "fade-right" : "fade-left"}
-								data-aos-duration="1000"
-							>
-								<img
-									src="/assets/images/blog-detail-hero.png"
-									alt="blog-detail-hero"
-									className="mx-auto h-80 rounded-[32px] object-cover sm:h-[400px] sm:w-[445px]"
-								/>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div> */}
 
 			<section className="bg-gradient-to-t from-white to-transparent py-14 dark:bg-none md:py-[100px]">
 				<div className="container grid place-items-center ">
@@ -175,4 +149,4 @@ const Blogdetail: React.FC<ContactNowProps> = ({
 	);
 };
 
-export default Blogdetail;
+export default Resources;
