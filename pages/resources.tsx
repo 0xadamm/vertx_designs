@@ -8,11 +8,11 @@ import SubHero from "../components/SubHero";
 interface ContactNowProps {
 	buttonIcon?: string;
 	buttonText?: string;
-	buttonEmail?: string;
+	buttonPath?: string;
 }
 
 const Blogdetail: React.FC<ContactNowProps> = ({
-	buttonEmail,
+	buttonPath,
 	buttonIcon,
 	buttonText,
 }) => {
@@ -114,9 +114,43 @@ const Blogdetail: React.FC<ContactNowProps> = ({
 							website in minutes.
 						</p>
 
+						<h3>Key Features </h3>
+
+						<ul>
+							<li>
+								<strong>24/7 Customer Support:</strong> Offer
+								round-the-clock support without the need for a large
+								customer service team.
+							</li>
+							<li>
+								<strong>Instant Knowledge Retrieval:</strong> Quickly
+								provide accurate information, improving customer
+								satisfaction.
+							</li>
+							<li>
+								<strong>Lead Generation:</strong> Capture and nurture
+								leads automatically, increasing your sales
+								opportunities.
+							</li>
+							<li>
+								<strong>Ad Campaign Automation:</strong> Run targeted
+								ads with minimal manual intervention for maximum ROI.
+							</li>
+							<li>
+								<strong>No-Code Customization:</strong> Easily tweak
+								and deploy the bot using Voiceflow, requiring zero
+								coding skills.
+							</li>
+							<li>
+								<strong>Quick Integration:</strong> Seamlessly
+								integrate the chatbot with your existing website in
+								minutes.
+							</li>
+						</ul>
+
 						{/* Button */}
 						<a
-							href={buttonEmail || "/path/to/your/file.zip"}
+							href={buttonPath || "/resources/Chatbot_Template.vf"}
 							download
 							className="btn inline-flex items-center gap-8 bg-secondary px-6 py-4 text-white no-underline sm:text-lg"
 						>
