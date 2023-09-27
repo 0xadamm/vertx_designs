@@ -13,6 +13,6 @@
   },
   "plugins": [],
   "rules": {
-    "max-len": [2, { "code": 210, "tabWidth": 4, "ignoreUrls": true }]
-  }
+		// "max-len": [2, { "code": 210, "tabWidth": 4, "ignoreUrls": true }]
+	}
 }

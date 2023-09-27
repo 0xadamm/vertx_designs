@@ -2,6 +2,7 @@ import { useSelector } from "react-redux";
 import Link from "next/link";
 import Head from "next/head";
 import { IRootState } from "../store";
+import SubHero from "../components/SubHero";
 
 const Blog = () => {
 	const isRtl =
@@ -513,6 +514,13 @@ const Blog = () => {
 					</div>
 				</div>
 			</div>
+			<SubHero
+				title="Blog"
+				subtitle={"Placeholder"}
+				image={""}
+				height={0}
+				width={0}
+			/>
 
 			<section className="bg-gradient-to-t from-white/70 to-transparent py-14 dark:bg-none md:py-[100px]">
 				<div className="container">
