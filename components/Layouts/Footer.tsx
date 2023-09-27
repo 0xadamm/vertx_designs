@@ -46,16 +46,24 @@ const Footer = () => {
 							</li>
 							<li>
 								<Link
-									href="/about-us"
+									href="/about"
 									className="inline-block transition hover:scale-110 hover:text-secondary"
 								>
 									About
 								</Link>
 							</li>
+							<li>
+								<Link
+									href="/resources"
+									className="inline-block transition hover:scale-110 hover:text-secondary"
+								>
+									Resources
+								</Link>
+							</li>
 
 							<li>
 								<Link
-									href="/contact-us"
+									href="/contact"
 									className="inline-block transition hover:scale-110 hover:text-secondary"
 								>
 									Contact Us
