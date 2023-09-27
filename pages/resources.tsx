@@ -152,7 +152,7 @@ const Blogdetail: React.FC<ContactNowProps> = ({
 						<a
 							href={buttonPath || "/resources/Chatbot_Template.vf"}
 							download
-							className="btn inline-flex items-center gap-8 bg-secondary px-6 py-4 text-white no-underline sm:text-lg"
+							className="btn inline-flex items-center gap-5 bg-secondary px-6 py-4 text-white no-underline sm:text-lg"
 						>
 							{/* Button Icon */}
 							<Image
@@ -166,7 +166,7 @@ const Blogdetail: React.FC<ContactNowProps> = ({
 								className="m-0"
 							/>
 							<span className=" capitalize ">
-								{buttonText || "Download File"}
+								{buttonText || "Download Template"}
 							</span>
 						</a>
 					</div>
