@@ -16,7 +16,7 @@ const SubHero: React.FC<SubHeroProps> = ({
 	subtitle,
 	image,
 	height,
-	width
+	width,
 }) => {
 	const isRtl =
 		useSelector(

@@ -56,6 +56,7 @@ const ContactNow: React.FC<ContactNowProps> = ({
 				/>
 			</div>
 			<div className="text-center">
+				{/* Button */}
 				<a
 					href={buttonEmail || "mailto:info@vertxdesigns.com"}
 					className="btn inline-flex items-center gap-3 bg-secondary text-white sm:text-lg"
